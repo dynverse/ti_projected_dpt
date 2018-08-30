@@ -1,6 +1,6 @@
 id: projected_dpt
-docker_repository: dynverse/dynmethods:projected_dpt
-container_url: https://github.com/dynverse/dynmethods/tree/master/containers/projected_dpt
+docker_repository: dynverse/ti_projected_dpt
+container_url: https://github.com/dynverse/ti_projected_dpt
 name: Projected DPT
 type: algorithm_test
 platform: R
