@@ -1,5 +1,6 @@
 id: projected_dpt
 docker_repository: dynverse/ti_projected_dpt
+singularity_collection: 1564
 container_url: https://github.com/dynverse/ti_projected_dpt
 name: Projected DPT
 type: algorithm_test
