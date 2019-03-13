@@ -1,9 +1,10 @@
-FROM dynverse/dynwrap:bioc
+FROM dynverse/dynwrapr:v0.1.0
+
+ARG GITHUB_PAT
 
 RUN R -e 'devtools::install_cran("destiny")'
 
-LABEL version 0.1.5
+COPY definition.yml run.R example.h5 /code/
 
-ADD . /code
+ENTRYPOINT ["/code/run.R"]
 
-ENTRYPOINT Rscript /code/run.R
