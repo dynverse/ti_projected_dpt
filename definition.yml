@@ -51,11 +51,10 @@ parameters:
     description: logical. If TRUE, use density normalisation
   - id: n_local
     description: If sigma == 'local', the `n_local` nearest neighbor(s) determine(s) the local sigma
-    type: range
+    type: integer_range
     default:
     - 5
     - 7
-    as_integer: TRUE
     lower_distribution:
       type: uniform
       lower: 2
