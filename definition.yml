@@ -1,7 +1,7 @@
 method:
   id: projected_dpt
   name: Projected DPT
-  source: tool
+  source: adaptation
   platform: R
   url: https://bioconductor.org/packages/release/bioc/html/destiny.html
   license: GPL-3
